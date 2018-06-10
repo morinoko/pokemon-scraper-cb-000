@@ -24,7 +24,7 @@ class Pokemon
     @db = db
   end
   
-  def alter_hp
+  def alter_hp(new_hp)
     
   end
 end
