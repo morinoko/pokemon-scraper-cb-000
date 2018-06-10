@@ -19,7 +19,8 @@ class Pokemon
     id = pokemon_data[0]
     name = pokemon_data[1]
     type = pokemon_data[2]
+    hp = pokemon_data[3]
     
-    self.new(id: id, name: name, type: type, hp: 60, db: db)
+    self.new(id: id, name: name, type: type, hp: hp, db: db)
   end
 end
