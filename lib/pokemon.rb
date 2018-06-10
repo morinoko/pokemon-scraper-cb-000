@@ -26,6 +26,6 @@ class Pokemon
   
   def alter_hp(new_hp)
     @hp = new_hp
-    @db.execute("ALTER pokemon SET hp = ? WHERE id = ?;", @hp, @id)
+    @db.execute("ALTER pokemon SET hp=? WHERE id=?;", @hp, @id)
   end
 end
